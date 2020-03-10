@@ -32,3 +32,15 @@ def unemployment_benefits(income, params):
 
 def aggregated_benefits(child_benefits, unemployment_benefits, params):
     return child_benefits + unemployment_benefits
+
+
+def unrelated_function(income, params):
+    return 0
+
+
+def unrelated_function_2(unrelated_function, params):
+    return 1
+
+
+def un_unrelated_function(params):
+    return 0
